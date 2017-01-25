@@ -7,7 +7,7 @@
   "author": "Xavi Serra <xaviserrag@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
   "babel": {
     "presets": [
