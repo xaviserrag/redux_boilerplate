@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import Message from '../components/message';
 
 const mapStateToProps = state => ({
-  message: state.test.hasTested
+  message: state.getIn(['test', 'hasTested'])
     ? 'The test is done'
     : 'The test still not done',
 });

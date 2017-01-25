@@ -1,6 +1,4 @@
-export const MAKE_TEST = 'MAKE_TEST';
+import { createAction } from 'redux-actions';
 
-export const makeTest = () => ({
-  type: MAKE_TEST,
-  payload: true,
-});
+export const MAKE_TEST = 'MAKE_TEST';
+export const makeTest = createAction(MAKE_TEST, () => true);
