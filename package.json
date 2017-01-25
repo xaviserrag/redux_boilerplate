@@ -1,0 +1,23 @@
+{
+  "name": "watchit",
+  "version": "1.0.0",
+  "description": "Randomly picked movies from IMDB",
+  "main": "index.js",
+  "repository": {},
+  "author": "Xavi Serra <xaviserrag@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.22.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
