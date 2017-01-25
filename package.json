@@ -7,7 +7,8 @@
   "author": "Xavi Serra <xaviserrag@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "test": "gulp test"
   },
   "babel": {
     "presets": [
@@ -49,6 +50,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
     "mocha": "^3.2.0",
     "webpack-stream": "^3.2.0"
   },
